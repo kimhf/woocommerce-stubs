@@ -1,0 +1,27 @@
+{
+    "name": "kimhf/woocommerce-stubs",
+    "description": "Stubs for the WooCommerce WordPress plugin, used for static analysis.",
+    "keywords": [
+        "wordpress",
+        "woocommerce",
+        "static analysis"
+    ],
+    "support": {
+        "issues": "https://github.com/kimhf/woocommerce-stubs/issues",
+        "source": "https://github.com/kimhf/woocommerce-stubs"
+    },
+    "authors": [
+        {
+            "name": "Kim Helge Frimanslund",
+            "homepage": "https://github.com/kimhf"
+        }
+    ],
+    "require-dev": {
+        "php": ">=7.1",
+        "giacocorsiglia/stubs-generator": "^0.5",
+        "woocommerce/woocommerce": "^3.7.1"
+    },
+    "scripts": {
+        "generate-woocommerce-stubs": "generate-stubs --finder=finder.php --nullify-globals --out=woocommerce-stubs.php --force"
+    }
+}
