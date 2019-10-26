@@ -10,6 +10,7 @@
         "issues": "https://github.com/kimhf/woocommerce-stubs/issues",
         "source": "https://github.com/kimhf/woocommerce-stubs"
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "Kim Helge Frimanslund",
